@@ -1,10 +1,11 @@
 #!/bin/bash
 # https://github.com/Hyy2001X/AutoBuild-Actions
 # AutoBuild Module by Hyy2001
+# Fork and edit by Licsber
 # AutoBuild Actions
 
 Diy_Core() {
-Author=Hyy2001
+Author=Licsber
 
 Default_File=./package/lean/default-settings/files/zzz-default-settings
 Lede_Version=`egrep -o "R[0-9]+\.[0-9]+\.[0-9]+" $Default_File`

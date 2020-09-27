@@ -1,11 +1,12 @@
 #!/bin/bash
 # https://github.com/Hyy2001X/AutoBuild-Actions
 # AutoBuild Module by Hyy2001
+# Fork and edit by Licsber
 # AutoUpdate
 
 Version=V3.2-b
 DEFAULT_DEVICE=d-team_newifi-d2
-Github=https://github.com/Hyy2001X/AutoBuild-Actions
+Github=https://github.com/Licsber/AutoBuild-Actions
 
 function TIME() {
 echo -ne "\n[$(date "+%H:%M:%S")] "
