@@ -69,7 +69,6 @@ mv2 mac80211.sh package/kernel/mac80211/files/lib/wifi
 mv2 system package/base-files/files/etc/config
 mv2 AutoUpdate.sh package/base-files/files/bin
 mv2 firewall.config package/network/config/firewall/files
-mv2 distfeeds.conf package/base-files/files/etc/opkg
 
 ExtraPackages git luci-theme-argon https://github.com/jerrykuku 18.06
 ExtraPackages svn luci-app-adguardhome https://github.com/Lienol/openwrt/trunk/package/diy
