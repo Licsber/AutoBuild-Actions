@@ -71,6 +71,7 @@ mv2 AutoUpdate.sh package/base-files/files/bin
 mv2 firewall.config package/network/config/firewall/files
 
 ExtraPackages git luci-theme-argon https://github.com/jerrykuku 18.06
+ExtraPackages svn adguardhome https://github.com/Lienol/openwrt/trunk/package/diy
 ExtraPackages svn luci-app-adguardhome https://github.com/Lienol/openwrt/trunk/package/diy
 ExtraPackages svn luci-app-smartdns https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t
 ExtraPackages svn smartdns https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t
