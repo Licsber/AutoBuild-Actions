@@ -11,6 +11,10 @@ Supported Devices: `d-team_newifi-d2`
 同时为了节省空间 有效利用新三32MB的存储  
 我fork了本项目 开始自己的折腾固件之路
 
+## 更新说明
+
+2020-10-03 参照Hyy2001的最新改动进行了同步
+
 ## 固件说明
 
 下面是我保留的软件：  
@@ -30,3 +34,11 @@ socat 网络工具
 ## 使用方法
 
 使用方法参考 CurssedCoffin老哥 的 [AutoBuild-Actions](https://github.com/CurssedCoffin/AutoBuild-Actions)
+
+## 使用指令升级固件
+
+在终端输入: `bash /bin/AutoUpdate.sh`
+
+不保留配置升级: `bash /bin/AutoUpdate.sh -n`
+
+使用最新脚本升级: `curl -s https://raw.githubusercontent.com/Hyy2001X/Openwrt-AutoUpdate/master/AutoUpdate.sh | bash`
