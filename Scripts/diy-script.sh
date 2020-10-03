@@ -98,7 +98,6 @@ echo "AutoUpdate Version: $AutoUpdate_Version"
 echo "Device: $TARGET_PROFILE"
 sed -i "s?$Lede_Version?$Lede_Version Compiled by $Author [$Compile_Date]?g" $Default_File
 echo "$Openwrt_Version" > ./package/base-files/files/etc/openwrt_info
-sed -i "s?Openwrt?Openwrt $Openwrt_Version / AutoUpdate $AutoUpdate_Version?g" ./package/base-files/files/etc/banner
 }
 
 Diy-Part3() {
