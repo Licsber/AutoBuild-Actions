@@ -35,6 +35,9 @@ socat 网络工具
 
 使用方法参考 CurssedCoffin老哥 的 [AutoBuild-Actions](https://github.com/CurssedCoffin/AutoBuild-Actions)
 
+### Banner生成方法
+点击这个链接[TAAG](http://patorjk.com/software/taag/#p=testall&f=Acrobatic&t=LicsberLab) 即可
+
 ## 使用指令升级固件
 
 在终端输入: `bash /bin/AutoUpdate.sh`
