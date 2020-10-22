@@ -76,15 +76,15 @@ detect_mac80211() {
 		[ "$found" -gt 0 ] && continue
 
 		mode_band="g"
-		channel="auto"
+		channel="6"
 		htmode=""
 		ht_capab=""
 
 		iw phy "$dev" info | grep -q 'Capabilities:' && htmode=HT20
 
-		iw phy "$dev" info | grep -q '5180 MHz' && {
+		iw phy "$dev" info | grep -q '\* 5... MHz \[' && {
 			mode_band="a"
-			channel="auto"
+			channel=$(iw phy "$dev" info | grep '\* 5... MHz \[' | grep '(disabled)' -v -m 1 | sed 's/[^[]*\[\|\].*//g')
 			iw phy "$dev" info | grep -q 'VHT Capabilities' && htmode="VHT80"
 		}
 
